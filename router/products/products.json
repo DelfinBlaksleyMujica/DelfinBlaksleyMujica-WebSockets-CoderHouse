@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Remera 1",
+    "price": "1000",
+    "thumbnail": "www.imagen.com",
+    "id": 1
+  },
+  {
+    "title": "Remera 1",
+    "price": "18800",
+    "thumbnail": "www.activa.com",
+    "id": 2
+  }
+]
