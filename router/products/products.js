@@ -4,7 +4,8 @@ const router = Router();
 const app = express();
 
 const Container = require("./container.js")
-const productos = new Container ("./router/products/products.json")
+const productos = new Container ("./router/products/products.json");
+const productosParaFront = new Container ("./public/products.json");
 const productosEnBase = require("./products.json");
 const products = productosEnBase;
 
@@ -27,6 +28,7 @@ let arrayLength = products.length > 0 ? true : false;
 router.post("/" , ( req , res ) => {
     const obj = req.body;
     productos.save(obj);
+    productosParaFront.save(obj);
     console.log( products );
     res.sendFile("C:/Users/delfb/OneDrive/Escritorio/Programacion Backend/Entregas/DelfinBlaksleyMujica-WebSockets/views/main.html");
 })

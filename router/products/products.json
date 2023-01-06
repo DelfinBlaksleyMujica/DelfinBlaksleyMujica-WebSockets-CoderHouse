@@ -10,5 +10,47 @@
     "price": "18800",
     "thumbnail": "www.activa.com",
     "id": 2
+  },
+  {
+    "title": "Remera Negra",
+    "price": "8000",
+    "thumbnail": "www.bensimon.com",
+    "id": 3
+  },
+  {
+    "title": "",
+    "price": "",
+    "thumbnail": "",
+    "id": 4
+  },
+  {
+    "title": "Prueba de subida",
+    "price": "1200",
+    "thumbnail": "www.activa.com",
+    "id": 5
+  },
+  {
+    "title": "Prueba de subida",
+    "price": "1200",
+    "thumbnail": "www.activa.com",
+    "id": 6
+  },
+  {
+    "title": "Prueba de subida",
+    "price": "1200",
+    "thumbnail": "www.activa.com",
+    "id": 7
+  },
+  {
+    "title": "Prueba de subida",
+    "price": "1200",
+    "thumbnail": "www.activa.com",
+    "id": 8
+  },
+  {
+    "title": "Remera ",
+    "price": "1200",
+    "thumbnail": "www.activa.com",
+    "id": 9
   }
 ]
